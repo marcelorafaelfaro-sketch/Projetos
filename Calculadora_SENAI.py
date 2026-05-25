@@ -14,4 +14,5 @@ while True:
     escolha = int(input("Informe o número: "))
     if (escolha == 1):
         print("ADIÇÃO")
-        
+    if (escolha == 2):
+        print("SUBTRAÇÃO")

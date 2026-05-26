@@ -59,10 +59,12 @@ while True:
         #print(f"O resultado da potencia é {potenciacao}")
     if (escolha == 6):
         print("RAIZ QUADRADA")
-        numero_raiz = str(input("Informe o numero que você deseja ter a raiz quadrada: "))
-        lista_raiz = list(numero_raiz.split(" "))
-        potencia = float((lista_raiz ** 0.5))
-        print(f"O resultado da raiz quadrada de {numero_raiz} é igual a {potencia}")
+        numero_raiz = int(input("Informe o numero que você deseja ter a raiz quadrada: "))
+        #lista_raiz = list(numero_raiz.split(" "))
+        #resultado_raiz = int((lista_raiz ** 0.5))
+        import math
+        resultado = math.sqrt(numero_raiz)
+        print(f"O resultado da raiz quadrada de {numero_raiz} é igual a {resultado}")
 
 
 

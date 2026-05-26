@@ -49,7 +49,8 @@ while True:
     if (escolha == 5):
         print("POTÊNCIA")
         #numeros_potenciados = str(input("Informe o numero que deseja "))
-        numero_base = float(input("Informe o numero que vai ser potenciado: "))
-        potencia = int(input("Informe o expoente que vai ser utilizado no seu numero: "))
-        potenciacao = (numero_base ** potencia)
-        print(f"O resultado da potencia é {potenciacao}")
+        numero_base = str(input("Informe o numero que vai ser potenciado: "))
+        lista_potencia = list(numero_base(" "))
+       # potencia = int(input("Informe o expoente que vai ser utilizado no seu numero: "))
+        #potenciacao = (numero_base ** potencia)
+        #print(f"O resultado da potencia é {potenciacao}")

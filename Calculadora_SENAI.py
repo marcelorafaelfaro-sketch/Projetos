@@ -57,4 +57,6 @@ while True:
         #potencia = int(input("Informe o expoente que vai ser utilizado no seu numero: "))
         #potenciacao = (numero_base ** potencia)
         #print(f"O resultado da potencia é {potenciacao}")
+    if (escolha == 6):
+
 

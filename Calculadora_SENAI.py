@@ -14,5 +14,11 @@ while True:
     escolha = int(input("Informe o número: "))
     if (escolha == 1):
         print("ADIÇÃO")
+        numeros = str(input("Informe os numeros que deseja somar: "))
+        lista_somativa = list(numeros.split(" "))
+        soma = 0
+        for numero in lista_somativa:
+            soma += int(numero)
+        print((f"o resultado da soma usando os numeros {numeros} é = {soma}"))
     if (escolha == 2):
-        print("SUBTRAÇÃO")
+        print("SUBTRAÇÃO ")

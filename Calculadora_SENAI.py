@@ -48,9 +48,12 @@ while True:
         print(f"A divisão entre {numeros_divis} é igual a {divisao:.2f} e o seu resto é {resto:.2f} ")
     if (escolha == 5):
         print("POTÊNCIA")
-        #numeros_potenciados = str(input("Informe o numero que deseja "))
         numero_base = str(input("Informe o numero que vai ser potenciado: "))
-        lista_potencia = list(numero_base(" "))
-       # potencia = int(input("Informe o expoente que vai ser utilizado no seu numero: "))
+        lista_potencia = list(numero_base.split(" "))
+        potencia = int(lista_potencia[0]) ** int(lista_potencia[1])
+        print(f"O resultado é {potencia}")
+        #METODO ALTERNATIVO.
+        # numeros_potenciados = str(input("Informe o numero que deseja "))
+        #potencia = int(input("Informe o expoente que vai ser utilizado no seu numero: "))
         #potenciacao = (numero_base ** potencia)
         #print(f"O resultado da potencia é {potenciacao}")

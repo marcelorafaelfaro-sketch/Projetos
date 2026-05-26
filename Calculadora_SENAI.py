@@ -50,13 +50,19 @@ while True:
         print("POTÊNCIA")
         numero_base = str(input("Informe o numero que vai ser potenciado: "))
         lista_potencia = list(numero_base.split(" "))
-        potencia = int(lista_potencia[0]) ** int(lista_potencia[1])
-        print(f"O resultado é {potencia}")
+        potencia = float(lista_potencia[0]) ** float(lista_potencia[1])
+        print(f"O resultado é {potencia:.2f}")
         #METODO ALTERNATIVO.
         # numeros_potenciados = str(input("Informe o numero que deseja "))
         #potencia = int(input("Informe o expoente que vai ser utilizado no seu numero: "))
         #potenciacao = (numero_base ** potencia)
         #print(f"O resultado da potencia é {potenciacao}")
     if (escolha == 6):
+        print("RAIZ QUADRADA")
+        numero_raiz = str(input("Informe o numero que você deseja ter a raiz quadrada: "))
+        lista_raiz = list(numero_raiz.split(" "))
+        potencia = float((lista_raiz ** 0.5))
+        print(f"O resultado da raiz quadrada de {numero_raiz} é igual a {potencia}")
+
 
 

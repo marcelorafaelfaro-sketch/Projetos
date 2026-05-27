@@ -78,6 +78,9 @@ while True:
     if (escolha == 8):
         print("FATORIAL")
         a_ser_fatoriado = int(input("Informe o número que você deseja ter o fatorial: "))
+        for i in range(a_ser_fatoriado,0, -1):
+            resultado_fatorial = (a_ser_fatoriado * i)
+            print (f"{resultado_fatorial}")
 
 
 

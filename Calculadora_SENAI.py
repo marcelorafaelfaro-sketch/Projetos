@@ -11,7 +11,7 @@ print("{8} Fatorial")
 print("{9} AJUDA")
 print("{0} SAIR")
 while True:
-    escolha = int(input("Informe o número: "))
+    escolha = int(input("Informe o número da operação que deseja realizar: "))
     if (escolha == 1):
         print("ADIÇÃO")
         numeros = str(input("Informe os numeros que deseja somar: "))
@@ -65,6 +65,20 @@ while True:
         import math
         resultado = math.sqrt(numero_raiz)
         print(f"O resultado da raiz quadrada de {numero_raiz} é igual a {resultado}")
+    if (escolha == 7):
+       print("PORCENTAGEM")
+       # numero_porcento = str(input("Informe a porcentagem e o valor que será usado, respectivamente: "))
+       # lista_porcento = list(numero_porcento.split(" "))
+       # porcentagem = (int(lista_porcento[0]) * int(lista_porcento[1]/100))
+       # print(f"O resultado é {porcentagem}")
+       porcentagem2_extra = float(input("Informe o número da porcentagem: "))
+       numero_porcentado = float(input("Informe o número: "))
+       conta_porcento = numero_porcentado * (porcentagem2_extra/100)
+       print(f"O resultado de {porcentagem2_extra}% de {numero_porcentado} é igual a {conta_porcento}")
+    if (escolha == 8):
+        print("FATORIAL")
+        a_ser_fatoriado = int(input("Informe o número que você deseja ter o fatorial: "))
+
 
 
 

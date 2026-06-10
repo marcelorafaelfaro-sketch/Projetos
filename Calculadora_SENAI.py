@@ -56,7 +56,7 @@ while True:
 
     if (escolha == 5):
         print("POTÊNCIA")
-        numero_base = str(input("Informe o numero que vai ser potenciado: "))
+        numero_base = float(input("Informe o numero que vai ser potenciado: "))
         lista_potencia = list(numero_base.split(" "))
         potencia = float(lista_potencia[0]) ** float(lista_potencia[1])
         print(f"O resultado é {potencia:.2f}")

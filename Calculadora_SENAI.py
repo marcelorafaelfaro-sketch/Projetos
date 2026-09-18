@@ -57,14 +57,14 @@ while True:
     if (escolha == 5):
         print("POTÊNCIA")
         numero_base = float(input("Informe o numero que vai ser potenciado: "))
-        # lista_potencia = list(numero_base.split(" "))
-        # potencia = float(lista_potencia[0]) ** float(lista_potencia[1])
-        # print(f"O resultado é {potencia:.2f}")
+        lista_potencia = list(numero_base.split(" "))
+        potencia = float(lista_potencia[0]) ** float(lista_potencia[1])
+        print(f"O resultado é {potencia:.2f}")
         #METODO ALTERNATIVO.
-        #numeros_potenciados = str(input("Informe o numero que deseja "))
-        potencia = int(input("Informe o expoente que vai ser utilizado no seu numero: "))
-        potenciacao = (numero_base ** potencia)
-        print(f"O resultado da potencia é {potenciacao}")
+        # numeros_potenciados = str(input("Informe o numero que deseja "))
+        #potencia = int(input("Informe o expoente que vai ser utilizado no seu numero: "))
+        #potenciacao = (numero_base ** potencia)
+        #print(f"O resultado da potencia é {potenciacao}")
 
     if (escolha == 6):
         print("RAIZ QUADRADA")
@@ -103,7 +103,7 @@ while True:
         """)
         break
 
-    if (escolha != range(1,9)):
+    else:
         print(""" 
         
     

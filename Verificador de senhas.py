@@ -2,7 +2,7 @@ import hashlib, requests
 
 
 
-senha = "cu12435"
+senha = "g07151929"
 h = hashlib.sha1(senha.encode())
 h = h.hexdigest().upper()
 r = requests.get(

@@ -4,7 +4,7 @@ from ursina.prefabs import sky
 from ursina.prefabs.first_person_controller \
     import FirstPersonController
 
-
+print("oi")
 
 aplicativo = Ursina()
 Sky()
